@@ -2,7 +2,9 @@
 
 Simulación ecológica de tres niveles tróficos: depredadores, presas y autótrofos (hierba), con interfaz gráfica interactiva construida con C++ y FLTK.
 
-![EcoSim en acción.](images/ecosim_demo.gif)
+<!-- ![EcoSim en acción.](images/ecosim_demo.gif) -->
+
+<img src="images/ecosim_demo.gif" alt="EcoSim en acción" width="600">
 
 ## Autor
 - Matías Ezequiel Hernández Rodríguez
