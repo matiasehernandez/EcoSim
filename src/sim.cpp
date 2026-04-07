@@ -24,7 +24,8 @@ Sim::Sim() : Fl_Double_Window(WIDTH + PANEL_W, HEIGHT, "EcoSim - Modelo basado e
     pred_move_cost(PRED_MOVE_COST), prey_move_cost(PREY_MOVE_COST),
     paused(false), show_vision(false), step(0), save_timer(0) {
 
-    resizable(this);
+    // resizable(this); // Interfaz gráfica redimensionable (modificar widgets)
+    resizable(nullptr); // Interfaz gráfica no redimensionable
 
     // Crear sliders - cada bloque ocupa 45px (label 14px + slider 22px + gap 9px)
     int sx = WIDTH + 10;
