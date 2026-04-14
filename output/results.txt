@@ -1,0 +1,26 @@
+=======================================================
+  EcoSim -- Reporte de simulacion
+  Generado: 2026-04-14 17:47:43
+=======================================================
+
+-- PARAMETROS --
+  Iteraciones: 25000
+  p_captura:   0.23
+  radio dep:   118
+  ang dep:     68
+  radio pre1:  90
+  ang pre1:    124
+  radio pre2:  85
+  ang pre2:    110
+  regrowth1:   180
+  regrowth2:   150
+  costo dep:   0.373625
+  costo pre1:  0.2
+  costo pre2:  0.1854
+
+-- ESTADO FINAL --
+  Depredadores: 26
+  Presas1:      0
+  Presas2:      108
+  Autotrofos1:  111
+  Autotrofos2:  57
