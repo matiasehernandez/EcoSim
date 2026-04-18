@@ -30,7 +30,7 @@ run: $(TARGET)
 
 # Grafica resultados
 plot:
-	gnuplot plot_ecosim.gnuplot
+	gnuplot plot_ecosim.gnu
 	
 # Limpiar archivos generados
 clean:
