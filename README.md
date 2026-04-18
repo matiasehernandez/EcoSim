@@ -67,7 +67,7 @@ g++ -O2 -o ecosim ecosim.cpp $(fltk-config --cxxflags --ldflags) -lm
 | `S` | Guardar métricas manualmente (`output/ecosim_reporte.txt`) |
 | `Esc` | Salir |
 
-Los **sliders** del panel lateral modifican parámetros en tiempo real sin necesidad de reiniciar.
+Los sliders del panel lateral modifican parámetros en tiempo real sin necesidad de reiniciar.
 
 ## Estructura del proyecto
 
