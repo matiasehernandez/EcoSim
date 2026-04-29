@@ -351,14 +351,14 @@ struct Agent {
 
         fl_color(fill_col);
         // Poligono como tira de triángulos desde el centro
-        fl_begin_polygon();
+        fl_begin_complex_polygon();
         fl_vertex(cx, cy);
         for(int i=0;i<=steps;i++){
             float a = angle - half + (2.f*half)*(i/(float)steps);
             fl_vertex(cx + (int)(r*std::cos(a)),
                       cy + (int)(r*std::sin(a)));
         }
-        fl_end_polygon();
+        fl_end_complex_polygon();
 
         // Bordes
         fl_color(edge_col);
